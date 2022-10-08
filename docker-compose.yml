@@ -12,15 +12,15 @@ services:
       - "5432:5432"
     environment:
       POSTGRES_DB: maveric_hub
-      POSTGRES_USER: r_user
-      POSTGRES_PASSWORD: r_user@123
+      POSTGRES_idea: r_idea
+      POSTGRES_PASSWORD: r_idea@123
 
-  user-service:
-    container_name: user-service
+  idea-service:
+    container_name: idea-service
     build:
-      context: ../user-service
+      context: ../idea-service
       dockerfile: Dockerfile
-    image: user-service:latest
+    image: idea-service:latest
     restart: always
     ports:
       - 4005:4005
@@ -30,6 +30,6 @@ services:
       - postgres-db:database
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres-db:5432/maveric_hub
-      - SPRING_DATASOURCE_USERNAME=r_user
-      - SPRING_DATASOURCE_PASSWORD=r_user@123
+      - SPRING_DATASOURCE_ideaNAME=r_idea
+      - SPRING_DATASOURCE_PASSWORD=r_idea@123
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
