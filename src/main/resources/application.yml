@@ -1,0 +1,8 @@
+server:
+  port: 4010
+spring:
+  application:
+    name: idea-service
+logging:
+  level:
+    com.maveric: info
