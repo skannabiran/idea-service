@@ -21,11 +21,11 @@ public class Idea {
     @Column
     private String postedBy;
     @Column
-    private String recommendedTechnologies;
+    private String technologies;
     @Column
     private String duration;
     @Column
     private String challenges;
     @Column
-    private String referenceData;
+    private String referenceMaterials;
 }

@@ -14,10 +14,10 @@ public class IdeaRequest {
     private String description;
     @NotBlank(message = ServiceConstants.POSTED_BY_MANDATORY)
     private String postedBy;
-    @NotBlank(message = ServiceConstants.RECOMM_TECH_IS_MANDATORY)
-    private String recommendedTechnologies;
+    @NotBlank(message = ServiceConstants.TECHNOLOGIES_IS_MANDATORY)
+    private String technologies;
     private String duration;
     private String challenges;
-    private String referenceData;
+    private String referenceMaterials;
 
 }

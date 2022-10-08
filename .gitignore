@@ -1,5 +1,5 @@
 .mvn/
-${project.build.directory}/
+${subscribe.build.directory}/
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -10,13 +10,13 @@ target/
 .apt_generated
 .classpath
 .factorypath
-.project
+.subscribe
 .settings
 .springBeans
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.subscribe
 *.iws
 *.iml
 *.ipr

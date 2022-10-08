@@ -5,7 +5,7 @@ import java.util.UUID;
 public class ServiceConstants {
 
     public static final String ID_IS_MANDATORY = "ID is mandatory";
-    public static final String RECOMM_TECH_IS_MANDATORY = "Recommended Technologies is mandatory";
+    public static final String TECHNOLOGIES_IS_MANDATORY = "Recommended Technologies is mandatory";
 
     public static final String TITLE_IS_MANDATORY = "Title is mandatory";
 

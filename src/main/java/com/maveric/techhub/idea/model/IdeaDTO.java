@@ -9,8 +9,8 @@ public class IdeaDTO {
     private String title;
     private String description;
     private String postedBy;
-    private String recommendedTechnologies;
+    private String technologies;
     private String duration;
     private String challenges;
-    private String referenceData;
+    private String referenceMaterials;
 }
